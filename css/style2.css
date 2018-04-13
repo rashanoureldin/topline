@@ -1,0 +1,146 @@
+
+.portfolio{
+z-index:1020;
+position:relative;
+padding-top:85px;
+}
+
+
+.portfolio {
+min-height:1000px;
+padding-bottom:30px;
+}
+
+.da-thumbs {
+position:relative;
+margin-top:30px;
+}
+
+.da-thumbs > div {
+float:right;
+position:relative;
+border:solid 2px #fff;
+}
+
+.da-thumbs div a,.da-thumbs div a img {
+display:block;
+position:relative;
+width:100%;
+}
+
+.da-thumbs div a div {
+position:absolute;
+background:rgba(230,57,63,0.9);
+width:100%;
+height:100%;
+text-align:center;
+}
+
+.da-thumbs div a div span {
+display:block;
+text-transform:uppercase;
+color:rgba(255,255,255,1);
+text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+border-bottom:1px solid rgba(255,255,255,0.5);
+font-weight:700;
+font-size:18px;
+margin:10px 20px 20px;
+padding:10px 0;
+}
+
+.da-thumbs div a div .fa {
+font-size:30px;
+color:#fff;
+margin-top:100px;
+}
+
+.da-thumbs:hover img {
+opacity:.5;
+}
+
+.portfolio .da-thumbs .item {
+float:right;
+width:225px;
+height:225px;
+background:#F6F6F6;
+overflow:hidden;
+}
+
+.portfolio .da-thumbs .item.width2 {
+width:450px;
+}
+
+.portfolio .da-thumbs .item.height2 {
+height:450px;
+}
+
+#filters .button {
+border:none;
+color:#2F9999;
+background:#F6F6F6;
+font-weight:700;
+padding:5px 10px;
+}
+
+#filters .button .fa {
+color:#7B7EB5;
+}
+
+#filters .button:hover,#filters .is-checked {
+background:#7B7EB5;
+color:#fff;
+}
+
+
+#portocarosel .carousel-inner {
+z-index:10;
+}
+
+ul#filterable,ul.thumbnails {
+list-style:none;
+padding:0;
+}
+
+
+.portfolio {
+min-height:1400px;
+}
+
+
+.da-thumbs div a,.form-group {
+overflow:hidden;
+}
+
+.da-thumbs div a:hover img{
+opacity:1;
+}
+
+#portocarosel img,ul#filterable li img,ul.thumbnails li img {
+width:100%;
+}
+
+
+@media (min-width:320px) and (max-width:599px){
+.da-thumbs {
+min-height:2140px;
+}
+
+
+.portfolio .da-thumbs .item,.portfolio .da-thumbs .item.width2 {
+width:290px;
+height:290px;
+}
+
+.portfolio .da-thumbs .item.width2,.portfolio .da-thumbs .item.width2 div {
+height:143px;
+}
+
+
+.portfolio .da-thumbs .item.height2 {
+height:auto;
+}
+}
+
+
+
+
